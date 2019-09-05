@@ -1,0 +1,250 @@
+* {
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+html {
+	/*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+	-ms-overflow-style: none;
+	/*火狐下隐藏滚动条*/
+	overflow: -moz-scrollbars-none;
+}
+
+html::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	width: 100%;
+	height: calc(100vh);
+	background-image: url(../images/山东胸痛质量管理平台.jpg);
+	background-size: 100% 100%;
+}
+
+#box1 {
+	width: 100%;
+	height: 100%;
+}
+
+#header {
+	width: 100%;
+	height: 11.5%;
+}
+
+#header .header_bg {
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/yljg/icon1.png);
+	background-size: 100% 100%;
+}
+
+#header .header_bg .title {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 2.4;
+	font-size: 0.4rem;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	letter-spacing: 4px;
+
+
+
+}
+
+#header .header_bg .title span {
+	background: linear-gradient(to top, #3fe9ff, #ffffff);
+	-webkit-background-clip: text;
+	color: transparent;
+
+}
+
+#data_content {
+	width: 100%;
+	height: 87%;
+}
+
+#main {
+	width: 100%;
+	height: 100%;
+}
+
+#left {
+	margin-left: 1%;
+	width: 26.1%;
+	height: 100%;
+	float: left;
+
+}
+
+#center {
+	width: 45.7%;
+	height: 100%;
+	float: left;
+
+}
+
+#right {
+	margin-right: 1%;
+	width: 26.1%;
+	height: 100%;
+	float: right;
+
+}
+
+#left .left_1 {
+
+	width: 100%;
+	height: 29.2%;
+	background-image: url(../images/yljg/icon2.png);
+	background-size: 100% 100%;
+}
+
+#left .left_2 {
+	margin-top: 20px;
+	width: 100%;
+	height: 66.41%;
+	background-image: url(../images/yljg/icon4.png);
+	background-size: 100% 100%;
+}
+
+#center .center_1 {
+	width: 100%;
+	height: 94.39%;
+}
+
+#center .title2 {
+	color: #3ff8ff;
+	font-size: 0.226rem;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	text-align: center;
+	line-height: 3.8;
+	margin-left: 35%;
+	margin-top: 4%;
+	width: 30.84%;
+	height: 10.16%;
+	background-image: url(../images/yljg/icon01.png);
+	background-size: 100% 100%;
+}
+
+#map {
+	margin: 0 auto;
+	height: 88%;
+	width: 94%;
+}
+
+#right .right_1 {
+	color: #43d4ff;
+	font-size: 0.2rem;
+	font-family: "微软雅黑";
+	width: 100%;
+	height: 29.2%;
+	background-image: url(../images/yljg/icon5.png);
+	background-size: 100% 100%;
+}
+
+#right .right_1 div div {
+	margin-bottom: 15%;
+}
+
+#right .right_2 {
+	margin-top: 20px;
+	width: 100%;
+	height: 66.41%;
+	background-image: url(../images/yljg/未标题-1%20副本.png);
+	background-size: 100% 100%;
+}
+
+.left_1_bg {
+	color: #40caf6;
+	font-size: 0.226rem;
+	font-family: "微软雅黑";
+	overflow: hidden;
+	margin: 0 auto;
+	width: 83%;
+	height: 54%;
+	background-image: url(../images/yljg/icon3.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.left_1_bg .l1left {
+	height: 100%;
+	width: 30%;
+	float: left;
+}
+
+.left_1_bg .l1right {
+	text-align: right;
+	height: 100%;
+	width: 30%;
+	float: right;
+}
+
+.left_1_bg div {
+	margin-top: 20%;
+}
+
+.l1left div:last-child {
+	color: #3ff8ff;
+	font-size: 0.29rem;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	color: #3ff8ff;
+}
+
+.l1right div:last-child {
+	color: #3ff8ff;
+	font-size: 0.29rem;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	color: #ab01f6;
+}
+
+.right_1 span {
+
+	font-size: 0.29rem;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	color: #ab01f6;
+}
+
+#presj {
+	margin: 0 auto;
+	color: #00E1F6;
+	font-size: 0.2rem;
+	font-weight: bold;
+	font-family: "微软雅黑";
+
+}
+
+
+#presj li {
+	padding-top: 8%;
+
+
+}
+
+#presj li span:first-child {
+	padding-left: 15%;
+
+}
+#presj li span:last-child {
+	padding-left: 35%;
+
+}
+
+#zcwqd {
+	color: #3ff8ff;
+}
+
+#yjzcl {
+	color: #3ff8ff;
+}

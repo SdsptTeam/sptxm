@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>医疗机构相关</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/yljg.css" />
+		<script src="js/jquery/jquery-1.11.3.js"></script>
+		<script src="js/echarts/4.0/echarts.js"></script>
+		<script src="js/yljg.js"></script>
+		<script src="js/rem.js"></script>
+		<script>
+			$(function() {
+			
+				$("#mapmain").strokerShandongMapCharts({});
+			
+			});
+		</script>
+	</head>
+	<body>
+		<div id="box1">
+			<div id="header">
+				<div class="header_bg">
+					<div class="title">
+						<span>山东胸痛质量管理平台</span>
+					</div>
+				</div>
+			</div>
+			<div id="data_content">
+				<div id="main">
+					<div id="left">
+						<div class="left_1">
+							<div style="height: 35%;"></div>
+							<div class="left_1_bg">
+								<ul>
+									<li class="l1left">
+										<div>医院数</div>
+										<div id="hospitalNum"></div>
+									</li>
+									<li class="l1right">
+										<div>救治能力</div>
+										<div id="jiuzhinengli"></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="left_2">
+							<div style="height: 100%; width: 100%; padding-top: 1%; margin: 0 auto;">
+								<div id="zhumain" style="height: 100%; width: 100%;"></div>
+							</div>
+						</div>
+					</div>
+					<div id="center">
+						<div class="center_1">
+							<div class="title2">医院机构相关</div>
+							<div id="map">
+								<div id="mapmain" style="height: 100%; width: 100%;"></div>
+							</div>
+						</div>
+					</div>
+					<div id="right">
+						<div class="right_1">
+							<div style="height: 73%; width: 100%; padding-top: 12.5%;">
+								<div style="width: 40%; height: 65%; float: left; margin-left: 10%;">
+									<div>注册未启动</div>
+									<div><span id="zcwqd"></span>家</div>
+									<div>月均注册量<span id="yjzcl"></span>家</div>
+								</div>
+								<div style="width: 40%; height: 65%; float: left; margin-left: 10%;">
+									<div>总启动建设量</div>
+									<div><span id="zqdjsl"></span>家</div>
+									<div>月均启动建设量<span id="yjqdjsl"></span>家</div>
+								</div>
+							</div>
+						</div>
+						<div class="right_2">
+							<div style="height: 90%; width: 100%;  margin: 0 auto;">
+								<div id="bingmain" style="height: 65%; width: 100%;"></div>
+								<div id="presj" style="height: 43%; width: 90%;">
+									<ul>
+										<li>
+											<span>三级医院</span>
+											<span id="level3"></span>
+										</li>
+										<li>
+											<span>二级医院</span>
+											<span id="level2"></span>
+										</li>
+										<li>
+											<span>一级医院</span>
+											<span id="level1"></span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

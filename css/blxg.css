@@ -1,0 +1,278 @@
+* {
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat
+}
+
+html {
+	/*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+	-ms-overflow-style: none;
+	/*火狐下隐藏滚动条*/
+	overflow: -moz-scrollbars-none;
+}
+
+html::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	width: 100%;
+	height: calc(100vh);
+	background-image: url(../images/山东胸痛质量管理平台.jpg);
+	background-size: 100% 100%;
+}
+
+#box1 {
+	width: 100%;
+	height: 100%;
+}
+
+#header {
+	width: 100%;
+	height: 11.5%;
+}
+
+#header .header_bg {
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/yljg/icon1.png);
+	background-size: 100% 100%;
+}
+
+#header .header_bg .title {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 2.4;
+	font-size: 0.4rem;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	letter-spacing: 4px;
+
+
+
+}
+
+#header .header_bg .title span {
+	background: linear-gradient(to top, #3fe9ff, #ffffff);
+	-webkit-background-clip: text;
+	color: transparent;
+
+}
+
+#data_content {
+	width: 100%;
+	height: 87%;
+}
+
+#main {
+	width: 100%;
+	height: 100%;
+}
+
+#left {
+	margin-left: 1%;
+	width: 26.1%;
+	height: 100%;
+	float: left;
+
+}
+
+#center {
+	width: 45.7%;
+	height: 100%;
+	float: left;
+
+}
+
+#right {
+	margin-right: 1%;
+	width: 26.1%;
+	height: 100%;
+	float: right;
+
+}
+
+#left .left_1 {
+
+	width: 100%;
+	height: 29.2%;
+	background-image: url(../images/blxg/icon001.png);
+	background-size: 100% 100%;
+}
+
+#left .left_2 {
+	margin-top: 20px;
+	width: 100%;
+	height: 66.41%;
+	background-image: url(../images/blxg/icon002.png);
+	background-size: 100% 100%;
+}
+
+#center .center_1 {
+	width: 100%;
+	height: 94.39%;
+}
+
+.left_1_bg {
+	width: 100%;
+	height: 100%;
+}
+
+#center .title2 {
+	color: #3ff8ff;
+	font-size: 0.226rem;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	text-align: center;
+	line-height: 3.8;
+	margin-left: 35%;
+	margin-top: 4%;
+	width: 30.84%;
+	height: 10.16%;
+	background-image: url(../images/yljg/icon01.png);
+	background-size: 100% 100%;
+}
+
+#map {
+	margin: 0 auto;
+	height: 88%;
+	width: 94%;
+}
+
+#right .right_1 {
+	width: 100%;
+	height: 98.3%;
+	background-image: url(../images/blxg/icon003.png);
+	background-size: 100% 100%;
+}
+
+table {
+	/*设置相邻单元格的边框间的距离*/
+	border-spacing: 0;
+	width: 93%;
+	height: 96%;
+	margin: 0 auto;
+	/*表格设置合并边框模型*/
+	border-collapse: collapse;
+	text-align: center;
+}
+
+/*关键设置 tbody出现滚动条*/
+table tbody {
+
+	color: #00e1f6;
+	font-family: "微软雅黑";
+	font-size: 0.2rem;
+	display: block;
+	width: 100%;
+	height: 95%;
+	overflow-y: scroll;
+}
+
+table thead,
+tbody tr {
+	width: 95%;
+	margin-top: 18px;
+	display: table;
+
+	table-layout: fixed;
+}
+
+tr {}
+
+/*关键设置：滚动条默认宽度是16px 将thead的宽度减16px*/
+table thead {}
+
+
+table thead th {
+	color: #ffffff;
+	font-family: "微软雅黑";
+	font-size: 0.2rem;
+}
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+tbody::-webkit-scrollbar {
+	width: 10px;
+	background-color: rgba(0, 0, 0, 0);
+
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+tbody::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+	border-radius: 10px;
+
+}
+
+/*定义滑块 内阴影+圆角*/
+tbody::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: #33a0ff;
+}
+
+/*定义最上方和最下方的按钮*/
+tbody::-webkit-scrollbar-button {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#left1_head {
+	font-family: "微软雅黑";
+	font-size: 0.18rem;
+	color: #0be8ff;
+}
+
+#left1_main {
+	height: 80%;
+	width: 100%;
+}
+
+#left1_main_left {
+	margin: 5% 3% 3% 3%;
+	float: left;
+	height:77.24%;
+	width: 28.162%;
+	background-image: url(../images/blxg/icon005.png);
+	background-size: 100% 100%;
+	font-family: "微软雅黑";
+	font-size: 0.28rem;
+	color: #fff;
+	text-align: center;
+	line-height: 4.5;
+}
+
+#left1_main_right {
+	margin-left: 5%;
+	height: 100%;
+	float: left;
+	width: 60%;
+}
+
+#left1_main_right p{
+	margin-top: 10%;
+	height: 20%;
+	font-family: "微软雅黑";
+	font-size: 0.28rem;
+	color: #0be8ff;
+	
+}
+
+#left1_main_right .rightmain{
+	margin-top: 10%;
+	height: 50%;
+}
+#left1_main_right .rightmain img{
+	
+}
+#left1_main_right .rightmain  {
+	font-family: "微软雅黑";
+	font-size: 0.2rem;
+	color: #0be8ff;
+}
+#left1_main_right .rightmain  span{
+	font-family: "微软雅黑";
+	font-size: 0.28rem;
+	color: #0be8ff;
+}
